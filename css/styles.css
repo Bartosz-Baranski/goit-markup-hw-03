@@ -45,16 +45,24 @@ body {
 }
 .buttons {
   font-family: var(--main-font);
-  color: var(main-text);
+  color: var(--main-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   cursor: pointer;
   background-color: var(--buttons-background);
 }
+.book {
+  font-family: var(--main-font);
+  color: var(--logo-footer);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  background-color: var(--link-focus);
+}
 .main-title {
   color: var(--logo-footer);
-  background-color: var(--baground);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -138,6 +146,22 @@ body {
 .rules-list,
 .team-list,
 .specialization,
-.types {
+.types,
+.motto {
   list-style-type: none;
+}
+.navigation {
+  width: 1600px;
+  height: 80px;
+  /* border: solid black; */
+  background-color: var(--logo-footer);
+  display: flex;
+}
+.contact-list {
+  display: flex;
+}
+.our-motto {
+  width: 1600px;
+  height: 600px;
+  background-color: var(--baground);
 }

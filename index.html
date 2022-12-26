@@ -21,41 +21,46 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="contact-list" >
+      <div class="navigation">
+        <nav>
+          <ul class="contact-list">
+            <li>
+              <a class="logo" href="./index.html"
+                ><span class="logo-color">Web</span>Studio</a
+              >
+            </li>
+            <li>
+              <a class="link active-blue" href="./Agencja">Agencja</a>
+            </li>
+            <li>
+              <a class="link active-blue" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="link active-blue" href="./Kontakt">Kontakty</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-list">
           <li>
-            <a class="logo" href="./index.html"
-              ><span class="logo-color">Web</span>Studio</a
+            <a class="contact active-blue" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link active-blue" href="./Agencja">Agencja</a>
-          </li>
-          <li>
-            <a class="link active-blue" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="link active-blue" href="./Kontakt">Kontakty</a>
+            <a class="contact active-blue" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="contact-list">
-        <li>
-          <a class="contact active-blue" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact active-blue" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="buttons" type="button">Zamów usługe</button>
+      <section class="our-motto">
+        <h1 class="main-title">
+          EFEKTYWNE ROZWIĄZANIA<br />
+          DLA WASZEGO BIZNESU
+        </h1>
+        <button class="buttons book" type="button">Zamów usługe</button>
       </section>
       <section>
         <ul class="rules-list">
@@ -120,7 +125,7 @@
               width="270"
               height="260"
             />
-            <h3 class="our-teamat">John Doe<h3>
+            <h3 class="our-teamat">John Doe</h3>
             <ul>
               <li class="specialization">Product Designer</li>
             </ul>
@@ -166,16 +171,20 @@
       </section>
     </main>
     <footer>
-      <address class="our-zone">
-        <a class="logo-footer" href="./index"><span class="logo-color">Web</span>Studio</a><br />
-        m. Warszawa, Aleje Jerozolimskie 21<br />
-        <a class="contact-footer active-blue" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        ><br />
-        <a class="contact-footer active-blue" href="tel:+48111111111"
-          >+48 111 111 111</a
-        >
-      </address>
+      <div>
+        <address class="our-zone">
+          <a class="logo-footer" href="./index"
+            ><span class="logo-color">Web</span>Studio</a
+          ><br />
+          m. Warszawa, Aleje Jerozolimskie 21<br />
+          <a class="contact-footer active-blue" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          ><br />
+          <a class="contact-footer active-blue" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
+        </address>
+      </div>
     </footer>
   </body>
 </html>
