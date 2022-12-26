@@ -60,12 +60,15 @@ body {
   line-height: 1.88;
   cursor: pointer;
   background-color: var(--link-focus);
+  width: 200px;
+  height: 50px;
 }
 .main-title {
   color: var(--logo-footer);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
+  text-align: center;
 }
 .title {
   font-size: 36px;
@@ -153,15 +156,49 @@ body {
 .navigation {
   width: 1600px;
   height: 80px;
-  /* border: solid black; */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #ececec;
   background-color: var(--logo-footer);
   display: flex;
 }
+.logo {
+  /* width: 145px; */
+  /* height: 31px; */
+  margin-top: 15px;
+  margin-right: 93px;
+  margin-bottom: 34px;
+  margin-left: 122px;
+}
+.link {
+  /* width: 254px;
+  height: 16px; */
+  margin-top: 23px;
+  margin-right: 46px;
+  margin-bottom: 41px;
+}
 .contact-list {
+  margin-top: 23px;
+  margin-right: 177px;
+  margin-bottom: 41px;
+  margin-left: 50px;
   display: flex;
+}
+.contact {
+  margin-left: 50px;
 }
 .our-motto {
   width: 1600px;
   height: 600px;
   background-color: var(--baground);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rules-list {
+  width: 1200px;
+  height: 101px;
+  display: flex;
+  margin: 94px 215px;
 }
