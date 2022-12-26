@@ -1,0 +1,143 @@
+:root {
+  --main-text: #212121;
+  --link-focus: #2196f3;
+  --logo-footer: #ffffff;
+  --signatures: #757575;
+  --contact-footer: rgba(117, 117, 117, 0.6);
+  --baground: #2f303a;
+  --buttons-background: #f5f4fa;
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.172;
+  text-decoration: none;
+}
+.logo-color {
+  color: var(--link-focus);
+}
+.active-blue:focus,
+.active-blue:hover,
+.active-blue:active {
+  color: var(--link-focus);
+}
+.link {
+  font-weight: 500;
+  text-decoration: none;
+  color: var(main-text);
+}
+.buttons:focus,
+.buttons:hover,
+.buttons:active {
+  color: var(--logo-footer);
+  background-color: var(--link-focus);
+  border: var(--link-focus);
+}
+.buttons {
+  font-family: var(--main-font);
+  color: var(main-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+  background-color: var(--buttons-background);
+}
+.main-title {
+  color: var(--logo-footer);
+  background-color: var(--baground);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+}
+.title {
+  font-size: 36px;
+  line-height: 1.172;
+}
+.rules {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.172;
+}
+.explain-rules {
+  color: var(--signatures);
+  font-size: 14px;
+  line-height: 1.72;
+}
+.our-teamat {
+  color: var(main-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.172;
+}
+.product {
+  color: var(main-text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.specialization {
+  color: var(--signatures);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.172;
+}
+.types {
+  color: var(--signatures);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.our-zone {
+  font-family: var(--main-font);
+  color: var(--logo-footer);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  background-color: var(--baground);
+}
+.logo-footer {
+  font-family: var(--logo-font);
+  color: var(--logo-footer);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.172;
+  text-decoration: none;
+}
+.contact {
+  color: var(--signatures);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.contact-footer {
+  color: var(--contact-footer);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.contact-list,
+.selection-list,
+.product-list,
+.rules-list,
+.team-list,
+.specialization,
+.types {
+  list-style-type: none;
+}
