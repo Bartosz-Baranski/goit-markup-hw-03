@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Homework</title>
     <meta name="description" content="Homework" />
@@ -20,47 +13,42 @@
     />
   </head>
   <body>
-    <header>
-      <div class="navigation">
-        <nav>
-          <ul class="contact-list">
-            <li>
-              <a class="logo" href="./index.html"
-                ><span class="logo-color">Web</span>Studio</a
-              >
-            </li>
-            <li>
-              <a class="link active-blue" href="./Agencja">Agencja</a>
-            </li>
-            <li>
-              <a class="link active-blue" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a class="link active-blue" href="./Kontakt">Kontakty</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="contact-list">
+    <header class="navigation">
+      <nav>
+        <ul class="contact-list navigation-list" >
           <li>
-            <a class="contact active-blue" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="logo" href="./index.html"
+              ><span class="logo-color">Web</span>Studio</a
             >
           </li>
           <li>
-            <a class="contact active-blue" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
+            <a class="link active-blue" href="./Agencja">Agencja</a>
+          </li>
+          <li>
+            <a class="link active-blue" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="link active-blue" href="./Kontakt">Kontakty</a>
           </li>
         </ul>
-      </div>
+      </nav>
+      <ul class="contact-list contact-header">
+        <li>
+          <a class="contact active-blue" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact active-blue" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
+        </li>
+      </ul>
     </header>
     <main>
-      <section class="our-motto">
-        <h1 class="main-title">
-          EFEKTYWNE ROZWIĄZANIA<br />
-          DLA WASZEGO BIZNESU
-        </h1>
-        <button class="buttons book" type="button">Zamów usługe</button>
+      <section>
+        <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="buttons" type="button">Zamów usługe</button>
       </section>
       <section>
         <ul class="rules-list">
@@ -125,7 +113,7 @@
               width="270"
               height="260"
             />
-            <h3 class="our-teamat">John Doe</h3>
+            <h3 class="our-teamat">John Doe<h3>
             <ul>
               <li class="specialization">Product Designer</li>
             </ul>
@@ -171,20 +159,16 @@
       </section>
     </main>
     <footer>
-      <div>
-        <address class="our-zone">
-          <a class="logo-footer" href="./index"
-            ><span class="logo-color">Web</span>Studio</a
-          ><br />
-          m. Warszawa, Aleje Jerozolimskie 21<br />
-          <a class="contact-footer active-blue" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          ><br />
-          <a class="contact-footer active-blue" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </address>
-      </div>
+      <address class="our-zone">
+        <a class="logo-footer" href="./index"><span class="logo-color">Web</span>Studio</a><br />
+        m. Warszawa, Aleje Jerozolimskie 21<br />
+        <a class="contact-footer active-blue" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        ><br />
+        <a class="contact-footer active-blue" href="tel:+48111111111"
+          >+48 111 111 111</a
+        >
+      </address>
     </footer>
   </body>
 </html>

@@ -8,16 +8,17 @@
   --buttons-background: #f5f4fa;
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
+  --logo-black: #000000;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
+  font-family: var(--main-font);
+  color: var(--main-text);
 }
 
 .logo {
   font-family: var(--logo-font);
-  color: #000000;
+  color: var(--logo-black);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.172;
@@ -34,7 +35,7 @@ body {
 .link {
   font-weight: 500;
   text-decoration: none;
-  color: var(main-text);
+  color: var(--main-text);
 }
 .buttons:focus,
 .buttons:hover,
@@ -45,30 +46,19 @@ body {
 }
 .buttons {
   font-family: var(--main-font);
-  color: var(--main-text);
+  color: var(main-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   cursor: pointer;
   background-color: var(--buttons-background);
 }
-.book {
-  font-family: var(--main-font);
-  color: var(--logo-footer);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  cursor: pointer;
-  background-color: var(--link-focus);
-  width: 200px;
-  height: 50px;
-}
 .main-title {
   color: var(--logo-footer);
+  background-color: var(--baground);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-  text-align: center;
 }
 .title {
   font-size: 36px;
@@ -85,32 +75,29 @@ body {
   line-height: 1.72;
 }
 .our-teamat {
-  color: var(main-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.172;
 }
 .product {
-  color: var(main-text);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 .specialization {
   color: var(--signatures);
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.172;
 }
 .types {
   color: var(--signatures);
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.88;
 }
 
 .our-zone {
-  font-family: var(--main-font);
   color: var(--logo-footer);
   font-style: normal;
   font-size: 14px;
@@ -149,56 +136,44 @@ body {
 .rules-list,
 .team-list,
 .specialization,
-.types,
-.motto {
+.types {
   list-style-type: none;
 }
 .navigation {
+  display: flex;
   width: 1600px;
   height: 80px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: #ececec;
   background-color: var(--logo-footer);
-  display: flex;
 }
 .logo {
-  /* width: 145px; */
-  /* height: 31px; */
-  margin-top: 15px;
-  margin-right: 93px;
-  margin-bottom: 34px;
-  margin-left: 122px;
+  width: 145px;
+  height: 31px;
+  padding-top: 15px;
+  padding-right: 93px;
+  padding-bottom: 34px;
+  padding-left: 165px;
+}
+.navigation-list {
+  display: flex;
+  width: 254px;
+  height: 16px;
+  padding: 23px 371px 41px 0px;
 }
 .link {
-  /* width: 254px;
-  height: 16px; */
-  margin-top: 23px;
-  margin-right: 46px;
-  margin-bottom: 41px;
+  padding-right: 46px;
 }
-.contact-list {
-  margin-top: 23px;
-  margin-right: 177px;
-  margin-bottom: 41px;
-  margin-left: 50px;
+.contact-header {
   display: flex;
+  padding-top: 23px;
+  padding-right: 134px;
+  padding-bottom: 41px;
+  padding-left: 336px;
 }
 .contact {
-  margin-left: 50px;
-}
-.our-motto {
-  width: 1600px;
-  height: 600px;
-  background-color: var(--baground);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.rules-list {
-  width: 1200px;
-  height: 101px;
-  display: flex;
-  margin: 94px 215px;
+  width: 135px;
+  height: 16px;
+  padding-left: 50px;
 }

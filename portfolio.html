@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Homework 02</title>
     <meta name="description" content="Homework" />
@@ -20,39 +13,37 @@
     />
   </head>
   <body>
-    <header>
-      <section>
-        <nav>
-          <ul class="contact-list">
-            <li>
-              <a class="logo" href="./index.html"
-                ><span class="logo-color">Web</span>Studio</a
-              >
-            </li>
-            <li>
-              <a class="link active-blue" href="./Agencja">Agencja</a>
-            </li>
-            <li>
-              <a class="link active-blue" href="./index.html">Strona Główna</a>
-            </li>
-            <li>
-              <a class="link active-blue" href="./Kontakt">Kontakty</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="contact-list">
+    <header class="navigation">
+      <nav>
+        <ul class="contact-list navigation-list">
           <li>
-            <a class="contact active-blue" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="logo" href="./index.html"
+              ><span class="logo-color">Web</span>Studio</a
             >
           </li>
           <li>
-            <a class="contact active-blue" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
+            <a class="link active-blue" href="./Agencja">Agencja</a>
+          </li>
+          <li>
+            <a class="link active-blue" href="./index.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="link active-blue" href="./Kontakt">Kontakty</a>
           </li>
         </ul>
-      </section>
+      </nav>
+      <ul class="contact-list contact-header">
+        <li>
+          <a class="contact active-blue" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact active-blue" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
+        </li>
+      </ul>
     </header>
     <main>
       <section>
@@ -188,21 +179,20 @@
         </ul>
       </section>
     </main>
+
     <footer>
-      <section>
-        <address class="our-zone">
-          <a class="logo-footer" href="./index.html"
-            ><span class="logo-color">Web</span>Studio</a
-          ><br />
-          m. Warszawa, Aleje Jerozolimskie 21<br />
-          <a class="contact-footer active-blue" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          ><br />
-          <a class="contact-footer active-blue" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </address>
-      </section>
+      <address class="our-zone">
+        <a class="logo-footer" href="./index.html"
+          ><span class="logo-color">Web</span>Studio</a
+        ><br />
+        m. Warszawa, Aleje Jerozolimskie 21<br />
+        <a class="contact-footer active-blue" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        ><br />
+        <a class="contact-footer active-blue" href="tel:+48111111111"
+          >+48 111 111 111</a
+        >
+      </address>
     </footer>
   </body>
 </html>
