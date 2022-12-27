@@ -14,6 +14,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-text);
+  max-width: 1600px;
 }
 
 .logo {
@@ -59,6 +60,16 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
+}
+.order {
+  font-family: var(--main-font);
+  color: var(--logo-footer);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+  background-color: var(--link-focus);
+  border: 1px solid var(--link-focus);
 }
 .title {
   font-size: 36px;
@@ -168,12 +179,56 @@ body {
 .contact-header {
   display: flex;
   padding-top: 23px;
-  padding-right: 134px;
+  padding-right: 227px;
   padding-bottom: 41px;
-  padding-left: 336px;
+  margin-left: 371px;
 }
 .contact {
   width: 135px;
   height: 16px;
   padding-left: 50px;
 }
+.motto {
+  display: flex;
+  width: 1600px;
+  height: 600px;
+  background-color: var(--baground);
+  flex-direction: column;
+}
+.main-title {
+  display: flex;
+  width: 696px;
+  height: 120px;
+  margin: 200px 452px 0px 452px;
+  text-align: center;
+  justify-content: center;
+}
+.order {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  padding: 10px 41px 10px 42px;
+  margin: 30px 700px 200px;
+}
+.rules-list {
+  display: flex;
+  width: 1170px;
+  height: 101px;
+  margin: 94px 215px;
+  padding: 0px;
+}
+.our-work {
+  box-sizing: border-box;
+  width: 1170px;
+  height: 386px;
+  margin: 0px 215px 94px;
+}
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* .our-work > img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: auto;
+} */
