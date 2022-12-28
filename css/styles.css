@@ -141,6 +141,7 @@ body {
   text-decoration: none;
 }
 
+.contact-header,
 .contact-list,
 .selection-list,
 .product-list,
@@ -154,40 +155,42 @@ body {
   display: flex;
   width: 1600px;
   height: 80px;
+  justify-content: center;
+  align-items: center;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: #ececec;
   background-color: var(--logo-footer);
+  margin-top: 9px;
 }
 .logo {
+  display: block;
   width: 145px;
   height: 31px;
-  padding-top: 15px;
-  padding-right: 93px;
-  padding-bottom: 34px;
-  padding-left: 165px;
+  margin: 15px 93px 34px 215px;
 }
 .navigation-list {
   display: flex;
   width: 254px;
   height: 16px;
-  padding: 23px 371px 41px 0px;
+  margin: 23px 371px 41px 0px;
 }
-.link {
+.navigation-list > .navigation-link:not(:last-child) {
   padding-right: 46px;
 }
 .contact-header {
   display: flex;
-  padding-top: 23px;
-  padding-right: 227px;
-  padding-bottom: 41px;
-  margin-left: 371px;
+  margin: 23px 227px 41px 0px;
 }
 .contact {
+  display: block;
   width: 135px;
   height: 16px;
-  padding-left: 50px;
 }
+.contact-header > .contact-list:not(:last-child) {
+  padding-right: 50px;
+}
+
 .motto {
   display: flex;
   width: 1600px;
@@ -196,7 +199,7 @@ body {
   flex-direction: column;
 }
 .main-title {
-  display: flex;
+  display: block;
   width: 696px;
   height: 120px;
   margin: 200px 452px 0px 452px;
@@ -212,21 +215,39 @@ body {
 }
 .rules-list {
   display: flex;
+  justify-content: center;
   width: 1170px;
   height: 101px;
-  margin: 94px 215px;
+  margin: 94px 215px 0px;
   padding: 0px;
 }
-.our-work {
+.rules-title {
+  display: block;
+  width: 270;
+  height: auto;
+}
+.rules-list > .rules-title:not(:last-child) {
+  padding-right: 30px;
+}
+.rules {
+  display: block;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.explain-rules {
+  margin: 0px;
+}
+/* .our-work {
   box-sizing: border-box;
+  display: flex;
   width: 1170px;
   height: 386px;
   margin: 0px 215px 94px;
-}
-.title {
+} */
+/* .title {
   margin-bottom: 50px;
   text-align: center;
-}
+} */
 /* .our-work > img {
   display: inline-block;
   max-width: 100%;
