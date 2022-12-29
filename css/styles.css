@@ -151,6 +151,9 @@ body {
 .types {
   list-style-type: none;
 }
+.container {
+  width: 1200px;
+}
 .navigation {
   display: flex;
   width: 1600px;
