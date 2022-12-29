@@ -153,6 +153,7 @@ body {
 }
 .container {
   width: 1200px;
+  margin: 94px 215px;
 }
 .navigation {
   display: flex;
@@ -221,15 +222,13 @@ body {
 .rules-list {
   display: flex;
   justify-content: center;
-  width: 1170px;
+  /* width: 1170px; */
   height: 101px;
-  margin: 94px 215px 0px;
   padding: 0px;
 }
 .rules-title {
   display: block;
   width: 270;
-  height: auto;
 }
 .rules-list > .rules-title:not(:last-child) {
   padding-right: 30px;
@@ -243,17 +242,14 @@ body {
   margin: 0px;
 }
 .our-work {
-  display: flex;
-  width: 1170px;
   height: 386px;
-  margin: 94px 215px 94px;
 }
-.title {
+.title-work {
+  display: block;
   margin-bottom: 50px;
   text-align: center;
 }
-.our-work > img {
-  display: block;
-  max-width: 100%;
-  max-height: auto;
+.our-work > img:nth-child(3) {
+  padding-right: 30px;
+  padding-left: 30px;
 }
