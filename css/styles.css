@@ -187,7 +187,7 @@ body {
   width: 135px;
   height: 16px;
 }
-.contact-header > .contact-list:not(:last-child) {
+.contact-header > .contact-list:nth-child(1) {
   padding-right: 50px;
 }
 
@@ -239,19 +239,18 @@ body {
 .explain-rules {
   margin: 0px;
 }
-/* .our-work {
-  box-sizing: border-box;
+.our-work {
   display: flex;
   width: 1170px;
   height: 386px;
-  margin: 0px 215px 94px;
-} */
-/* .title {
+  margin: 94px 215px 94px;
+}
+.title {
   margin-bottom: 50px;
   text-align: center;
-} */
-/* .our-work > img {
-  display: inline-block;
+}
+.our-work > img {
+  display: block;
   max-width: 100%;
   max-height: auto;
-} */
+}
