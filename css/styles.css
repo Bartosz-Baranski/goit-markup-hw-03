@@ -253,3 +253,47 @@ body {
   padding-right: 30px;
   padding-left: 30px;
 }
+.our-team-list {
+  box-sizing: border-box;
+  width: 1600px;
+  height: 648px;
+  background-color: var(--buttons-background);
+}
+
+.title-team {
+  display: block;
+  width: 210px;
+  height: 42px;
+  padding: 94px 695px 50px;
+  margin: 0px;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.team-list > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 368px;
+}
+.team-list > li:not(:last-child) {
+  padding-right: 30px;
+  margin: 0px;
+}
+.team-list > ul > li {
+  /* text-align: center; */
+}
+/* .our-teamat {
+  display: block;
+  width: 72px;
+  height: 19px;
+  padding: ;
+} */
+/* .specialization {
+  display: block;
+  text-align: center;
+} */
