@@ -214,7 +214,6 @@ ul {
   height: 50px;
   padding: 10px 41px 10px 42px;
   margin: 30px 700px 200px;
-  /* border-radius: 4px; */
 }
 .rules-list {
   display: flex;
@@ -336,7 +335,6 @@ ul {
   display: block;
   padding: 6px 22px;
   border: 0px;
-  /* border-radius: 4px; */
 }
 .selection-list > li:not(:last-child) {
   margin-right: 8px;
