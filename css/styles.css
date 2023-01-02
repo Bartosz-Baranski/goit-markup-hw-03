@@ -97,13 +97,11 @@ body {
 }
 .specialization {
   color: var(--signatures);
-
   font-size: 16px;
   line-height: 1.172;
 }
 .types {
   color: var(--signatures);
-
   font-size: 16px;
   line-height: 1.88;
 }
@@ -153,13 +151,18 @@ body {
 }
 .container {
   width: 1200px;
-  margin: 94px 215px;
+  margin-left: 215px;
+  /* margin-right: 215px; */
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .navigation {
   display: flex;
   width: 1600px;
   height: 80px;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -171,20 +174,20 @@ body {
   display: block;
   width: 145px;
   height: 31px;
-  margin: 15px 93px 34px 215px;
+  padding: 15px 93px 34px 215px;
 }
 .navigation-list {
   display: flex;
   width: 254px;
   height: 16px;
-  margin: 23px 371px 41px 0px;
+  padding: 23px 371px 41px 0px;
 }
 .navigation-list > .navigation-link:not(:last-child) {
   padding-right: 46px;
 }
 .contact-header {
   display: flex;
-  margin: 23px 227px 41px 0px;
+  padding: 23px 227px 41px 0px;
 }
 .contact {
   display: block;
@@ -225,6 +228,7 @@ body {
   /* width: 1170px; */
   height: 101px;
   padding: 0px;
+  margin: 0px;
 }
 .rules-title {
   display: block;
@@ -240,13 +244,17 @@ body {
 }
 .explain-rules {
   margin: 0px;
+
 }
 .our-work {
   height: 386px;
+  padding-top: 0px;
+  padding-bottom: 94;
 }
 .title-work {
   display: block;
-  margin-bottom: 50px;
+  margin: 0px;
+  padding-bottom: 50px;
   text-align: center;
 }
 .our-work > img:nth-child(3) {
@@ -258,13 +266,14 @@ body {
   width: 1600px;
   height: 648px;
   background-color: var(--buttons-background);
+  padding-bottom: 0px;
 }
 
 .title-team {
   display: block;
   width: 210px;
   height: 42px;
-  padding: 94px 695px 50px;
+  padding: 0px 695px 50px;
   margin: 0px;
 }
 .team-list {
@@ -284,16 +293,42 @@ body {
   padding-right: 30px;
   margin: 0px;
 }
-.team-list > ul > li {
-  /* text-align: center; */
-}
-/* .our-teamat {
+.our-teamat {
   display: block;
   width: 72px;
   height: 19px;
-  padding: ;
-} */
-/* .specialization {
+  padding: 30px 99px 10px;
+  margin: 0px;
+}
+.spec-teamat {
+  padding: 0px;
+}
+.address {
+  box-sizing: flex;
+  width: 1600px;
+  height: 252px;
+  background-color: var(--baground);
+}
+.our-zone {
   display: block;
-  text-align: center;
-} */
+  width: 246px;
+  height: 81px;
+  padding: 60px 215px;
+}
+.logo-footer {
+  display: block;
+  padding-bottom: 20px;
+}
+.contact-footer {
+  display: block;
+  width: 231px;
+  height: 21px;
+  padding-top: 9px;
+  margin: 0px;
+}
+.legal-addres {
+  display: block;
+  width: 246px;
+  height: 21px;
+  margin: 0px;
+}
