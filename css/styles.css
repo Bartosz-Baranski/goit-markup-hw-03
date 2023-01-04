@@ -147,19 +147,21 @@ ul {
   list-style-type: none;
 }
 .container {
-  width: 1200px;
+  /* width: 1200px; */
   margin-left: 215px;
   margin-right: 215px;
+  height: auto;
+  padding-left: 0px;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  width: auto;
 }
 .navigation {
   display: flex;
   width: 1600px;
   height: auto;
+  align-items: center;
   border-bottom: 1px solid #ececec;
   background-color: var(--logo-footer);
   margin-top: 9px;
@@ -169,22 +171,23 @@ ul {
   text-align: center;
   width: 145px;
   height: 31px;
-  margin: 15px 93px 34px 215px;
+  padding: 15px 48px 34px 215px;
 }
 .navigation-list {
   display: flex;
+  align-items: center;
   width: 254px;
   height: 16px;
-  padding-left: 0px;
-  margin: 23px 371px 41px 0px;
+  padding: 23px 186px 41px 45px;
+  margin: 0px;
 }
 .navigation-list > .navigation-link:not(:last-child) {
   margin-right: 46px;
 }
 .contact-header {
   display: flex;
-  margin: 23px 227px 41px 0px;
-  padding-left: 0px;
+  padding: 23px 227px 41px 185px;
+  margin: 0px;
 }
 .contact {
   display: block;
@@ -193,7 +196,7 @@ ul {
   height: 16px;
 }
 .contact-header > .contact-list:nth-child(1) {
-  padding-right: 50px;
+  margin-right: 50px;
 }
 .motto {
   display: flex;
@@ -219,13 +222,14 @@ ul {
 }
 .rules-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   height: auto;
   padding-left: 0px;
   margin: 0px;
 }
 .rules-title {
   display: block;
+  text-align: start;
   width: 270;
 }
 .rules-list > .rules-title:not(:last-child) {
@@ -233,18 +237,17 @@ ul {
 }
 .rules {
   display: block;
+  width: 270px;
   margin: 0px;
 }
 .explain-rules {
+  display: block;
+  width: 270px;
   margin-top: 10px;
   margin-bottom: 2px;
 }
 .our-work {
-  box-sizing: flex;
-  width: auto;
-  height: 386px;
-  padding-top: 0px;
-  padding-bottom: 94;
+  box-sizing: border-box;
 }
 .title-work {
   display: block;
@@ -254,21 +257,18 @@ ul {
 }
 .our-work-img {
   display: flex;
+  justify-content: space-between;
   padding-left: 0px;
   margin: 0px;
 }
 .our-work-img > li:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .our-team-list {
-  box-sizing: flex;
+  box-sizing: border-box;
   width: 1600px;
   height: auto;
   background-color: var(--buttons-background);
-}
-.teamat-img {
-  display: flex;
-  align-items: center;
 }
 .title-team {
   display: block;
@@ -276,22 +276,25 @@ ul {
   height: 42px;
   margin: 0px 695px 50px;
 }
+
 .team-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+
   padding: 0px;
   margin: 0px;
 }
 .teamat {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   width: 270px;
   height: 368px;
   background-color: var(--logo-footer);
 }
 .team-list > li:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .our-teamat {
   display: block;
@@ -301,29 +304,28 @@ ul {
 }
 .spec-teamat {
   display: block;
-  text-align: center;
   padding: 0px;
+  margin: 0px auto 30px;
 }
 .address {
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   width: 1600px;
   height: auto;
   background-color: var(--baground);
 }
-.our-zone {
-  box-sizing: border-box;
-  width: 246px;
-  padding: 60px 215px;
-}
 .logo-footer {
   display: block;
-  padding-bottom: 20px;
+  width: 145px;
+  height: 31;
+  text-align: center;
+  margin: 60px 1240px 20px 215px;
 }
-.contact-footer {
+.our-zone {
   display: block;
-  width: 231px;
-  height: 21px;
-  padding-top: 9px;
+  width: 246px;
+  height: 81px;
+  margin: 0px 1139px 60px 215px;
 }
 .legal-addres {
   display: block;
@@ -331,6 +333,13 @@ ul {
   height: 21px;
   margin: 0px;
 }
+.contact-footer {
+  display: block;
+  width: 231px;
+  height: 21px;
+  padding-top: 9px;
+}
+
 .portfolio-list {
   box-sizing: border-box;
   height: auto;
