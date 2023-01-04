@@ -147,7 +147,7 @@ ul {
   list-style-type: none;
 }
 .container {
-  /* width: 1200px; */
+  width: 1200px;
   margin-left: 215px;
   margin-right: 215px;
   height: auto;
@@ -247,7 +247,9 @@ ul {
   margin-bottom: 2px;
 }
 .our-work {
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .title-work {
   display: block;
@@ -265,7 +267,9 @@ ul {
   margin-right: 30px;
 }
 .our-team-list {
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 1600px;
   height: auto;
   background-color: var(--buttons-background);
@@ -343,6 +347,7 @@ ul {
 .portfolio-list {
   box-sizing: border-box;
   height: auto;
+  /* border: 2px solid #212121; */
 }
 .selection-list {
   display: flex;
@@ -365,10 +370,12 @@ ul {
   gap: 30px;
 }
 .our-product {
-  flex-basis: calc((100%- 60px) / 3);
+  flex-basis: calc((100%- 90px) / 3);
   width: 370px;
   height: 404px;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .product {
   display: block;
