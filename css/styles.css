@@ -9,6 +9,8 @@
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
   --logo-black: #000000;
+  --border-select-product: #eeeeee;
+  --navi-border: #ececec;
 }
 
 body {
@@ -158,7 +160,7 @@ ul {
   padding-bottom: 94px;
 }
 .navi-portfolio {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--navi-border);
 }
 .navigation {
   display: flex;
@@ -337,6 +339,9 @@ ul {
   margin: 0px;
   gap: 30px;
 }
+.our-product > img {
+  display: block;
+}
 .our-product {
   flex-basis: calc((100%- 90px) / 3);
   display: block;
@@ -346,25 +351,22 @@ ul {
 .box {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: -25px;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  align-items: center;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--border-select-product);
 }
+
 .product {
-  display: block;
-  width: 322px;
-  height: 36px;
-  margin: 45px 24px 4px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .types {
-  display: block;
-  width: 322px;
-  height: 30px;
-  margin: 0px 24px 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 .box > ul {
+  display: block;
+  width: 322px;
   padding-left: 0px;
 }
