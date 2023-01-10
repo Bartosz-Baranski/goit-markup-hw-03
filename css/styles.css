@@ -193,8 +193,8 @@ ul {
 }
 .mooto-section {
   border: 1px;
-  padding-top: 212px;
-  padding-bottom: 188px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   border-color: var(--logo-black);
   background-color: var(--baground);
 }
